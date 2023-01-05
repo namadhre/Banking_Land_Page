@@ -176,12 +176,12 @@ button {
     border-radius: 20px;
     font-size: large;
 }
-li {
+.menu li {
     display: inline;
     padding: 0 20px 0 20px;
 }
 
-li:hover {
+.menu li:hover {
     color: #000000;
     cursor: pointer;
     border-bottom: 3px solid hsl(136, 65%, 51%);
@@ -619,7 +619,6 @@ footer li a {
     transform: rotate(-405deg);
 }
 
-/* Hamburger styling for screen size blow 1200px */
 
 @media (max-width: 1200px) {
     .menu-button-container {
